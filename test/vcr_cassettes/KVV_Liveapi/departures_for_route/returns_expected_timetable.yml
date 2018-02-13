@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://live.kvv.de/webapp/departures/byroute/3/de:8212:60?key=377d840e54b59adbe53608ba1aad70e8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - live.kvv.de
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jan 2018 19:09:49 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0aW1lc3RhbXAiOiIyMDE4LTAxLTI5IDIwOjA5OjQ5Iiwic3RvcE5hbWUiOiJLYXJsc3J1aGUgRXVyb3BhcGxhdHogKEthcmxzdHIuKSIsImRlcGFydHVyZXMiOlt7InJvdXRlIjoiMyIsImRlc3RpbmF0aW9uIjoiVGl2b2xpIMO8YmVyIEhiZiIsImRpcmVjdGlvbiI6IjIiLCJ0aW1lIjoiOCBtaW4iLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMSJ9LHsicm91dGUiOiIzIiwiZGVzdGluYXRpb24iOiJIZWlkZSIsImRpcmVjdGlvbiI6IjEiLCJ0aW1lIjoiMjA6MjQiLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMiJ9LHsicm91dGUiOiIzIiwiZGVzdGluYXRpb24iOiJUaXZvbGkgw7xiZXIgSGJmIiwiZGlyZWN0aW9uIjoiMiIsInRpbWUiOiIyMDozNiIsInZlaGljbGVUeXBlIjpudWxsLCJsb3dmbG9vciI6dHJ1ZSwicmVhbHRpbWUiOnRydWUsInRyYWN0aW9uIjowLCJzdG9wUG9zaXRpb24iOiIxIn0seyJyb3V0ZSI6IjMiLCJkZXN0aW5hdGlvbiI6IkhlaWRlIiwiZGlyZWN0aW9uIjoiMSIsInRpbWUiOiIyMDo0NCIsInZlaGljbGVUeXBlIjpudWxsLCJsb3dmbG9vciI6dHJ1ZSwicmVhbHRpbWUiOnRydWUsInRyYWN0aW9uIjowLCJzdG9wUG9zaXRpb24iOiIyIn0seyJyb3V0ZSI6IjMiLCJkZXN0aW5hdGlvbiI6IlRpdm9saSDDvGJlciBIYmYiLCJkaXJlY3Rpb24iOiIyIiwidGltZSI6IjIwOjU2IiwidmVoaWNsZVR5cGUiOm51bGwsImxvd2Zsb29yIjp0cnVlLCJyZWFsdGltZSI6dHJ1ZSwidHJhY3Rpb24iOjAsInN0b3BQb3NpdGlvbiI6IjEifSx7InJvdXRlIjoiMyIsImRlc3RpbmF0aW9uIjoiSGVpZGUiLCJkaXJlY3Rpb24iOiIxIiwidGltZSI6IjIxOjA0IiwidmVoaWNsZVR5cGUiOm51bGwsImxvd2Zsb29yIjp0cnVlLCJyZWFsdGltZSI6dHJ1ZSwidHJhY3Rpb24iOjAsInN0b3BQb3NpdGlvbiI6IjIifV19
+    http_version:
+  recorded_at: Mon, 29 Jan 2018 19:09:49 GMT
+recorded_with: VCR 4.0.0

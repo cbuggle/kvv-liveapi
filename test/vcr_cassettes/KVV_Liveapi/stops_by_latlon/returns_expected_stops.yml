@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://live.kvv.de/webapp/stops/bylatlon/49.02140112/8.41370115?key=377d840e54b59adbe53608ba1aad70e8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - live.kvv.de
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jan 2018 16:24:18 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdG9wcyI6W3siaWQiOiJkZTo4MjEyOjI1IiwibmFtZSI6IkthcmxzcnVoZSBXaWxkcGFya3N0YWR0aW9uIEtTQyIsImxhdCI6NDkuMDIxNDAxMTIsImxvbiI6OC40MTM3MDExNSwiZGlzdGFuY2UiOjB9LHsiaWQiOiJkZTo4MjEyOjMwMDQiLCJuYW1lIjoiS2FybHNydWhlIELDvGNoaWdlciBBbGxlZSIsImxhdCI6NDkuMDE5NzQ5MjIsImxvbiI6OC40MjEzNDk1MSwiZGlzdGFuY2UiOjU4N30seyJpZCI6ImRlOjgyMTI6MzAwNSIsIm5hbWUiOiJLYXJsc3J1aGUgUmludGhlaW1lciBRdWVyYWxsLiIsImxhdCI6NDkuMDI1MjI5LCJsb24iOjguNDIzODcwMjYsImRpc3RhbmNlIjo4NTR9LHsiaWQiOiJkZTo4MjEyOjMwMDMiLCJuYW1lIjoiS2FybHNydWhlIFBhc3Rvci1GZWxrZS1TdHIuIiwibGF0Ijo0OS4wMTUyODUyMywibG9uIjo4LjQyMjM1ODIsImRpc3RhbmNlIjo5Mjd9LHsiaWQiOiJkZTo4MjEyOjMwMTQiLCJuYW1lIjoiS2FybHNydWhlIEVtaWwtR8O2dHQtU3RyLiIsImxhdCI6NDkuMDEzMzcwMzIsImxvbiI6OC40MjA2NDQyNCwiZGlzdGFuY2UiOjEwMjZ9LHsiaWQiOiJkZTo4MjEyOjMwMDIiLCJuYW1lIjoiS2FybHNydWhlIFN0dWRlbnRlbmhhdXMiLCJsYXQiOjQ5LjAxMTI1Mzk5LCJsb24iOjguNDE4MjIxOTQsImRpc3RhbmNlIjoxMTc1fSx7ImlkIjoiZGU6ODIxMjo0MDEiLCJuYW1lIjoiS2FybHNydWhlIEthcmwtV2lsaGVsbS1QbGF0eiIsImxhdCI6NDkuMDExMjg4MjQsImxvbiI6OC40MjMyNTE5NywiZGlzdGFuY2UiOjEzMjJ9LHsiaWQiOiJkZTo4MjEyOjMiLCJuYW1lIjoiS2FybHNydWhlIER1cmxhY2hlciBUb3IiLCJsYXQiOjQ5LjAwOTI1NSwibG9uIjo4LjQxMzYyMiwiZGlzdGFuY2UiOjEzNTB9LHsiaWQiOiJkZTo4MjEyOjIiLCJuYW1lIjoiS2FybHNydWhlIEtyb25lbnBsYXR6IChLYWlzZXJzdHIpIiwibGF0Ijo0OS4wMDkzNjQ0LCJsb24iOjguNDA5MTI2NjUsImRpc3RhbmNlIjoxMzc5fSx7ImlkIjoiZGU6ODIxMjo4MCIsIm5hbWUiOiJLYXJsc3J1aGUgS3JvbmVucGxhdHogKEVybGVyLVN0cikiLCJsYXQiOjQ5LjAwODkyODk5LCJsb24iOjguNDEwMTQzMzEsImRpc3RhbmNlIjoxNDEwfV19
+    http_version: 
+  recorded_at: Mon, 29 Jan 2018 16:24:18 GMT
+recorded_with: VCR 4.0.0
