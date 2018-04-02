@@ -7,6 +7,8 @@ require "kvv/liveapi/version"
 Gem::Specification.new do |spec|
   spec.name          = "kvv-liveapi"
   spec.version       = KVV::Liveapi::VERSION
+  spec.licenses      = ['MIT']
+
   spec.authors       = ["Christian Buggle"]
   spec.email         = ["christian@buggle.net"]
 
@@ -32,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", '~> 0.15'
 
   spec.add_development_dependency 'listen', '>= 3.0.5', '< 3.2'
-  spec.add_development_dependency 'spring'
-  spec.add_development_dependency 'spring-watcher-listen', '~> 2.0.0'
+  spec.add_development_dependency 'spring', '~> 2.0'
+  spec.add_development_dependency 'spring-watcher-listen', '~> 2.0'
 end
 
