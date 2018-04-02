@@ -7,10 +7,10 @@ module KVV
     API_KEY = '?key=377d840e54b59adbe53608ba1aad70e8'
     API_BASE = 'https://live.kvv.de/webapp/'
 
-    URL_PATH_STOPS_BY_NAME = 'stops/byname/'
-    URL_PATH_DEPARTURES_BY_STOP = 'departures/bystop/'
-    URL_PATH_DEPARTURES_BY_LATLON = 'stops/bylatlon/'
-    URL_PATH_DEPARTURES_BY_ROUTE = 'departures/byroute/'
+    URL_PATH_STOPS_BY_NAME = [ 'stops', 'byname']
+    URL_PATH_DEPARTURES_BY_STOP = ['departures', 'bystop']
+    URL_PATH_DEPARTURES_BY_LATLON = ['stops', 'bylatlon']
+    URL_PATH_DEPARTURES_BY_ROUTE = ['departures', 'byroute']
 
     def self.departures_bystop_name name
       self.departures_bystop guess_stop_id_by_name(name)
@@ -23,7 +23,7 @@ module KVV
 
     def self.departures_by_route route: nil, stop_id: nil
       return {} unless route && stop_id
-      fetch_api_path [URL_PATH_DEPARTURES_BY_ROUTE, route, "/", stop_id]
+      fetch_api_path [URL_PATH_DEPARTURES_BY_ROUTE, route, stop_id]
     end
 
     def self.stops_by_name name
@@ -34,14 +34,15 @@ module KVV
 
     def self.stops_by_latlon lat: nil, lon: nil
       return [] unless lat && lon
-      response = fetch_api_path [URL_PATH_DEPARTURES_BY_LATLON, lat, "/", lon]
+      response = fetch_api_path [URL_PATH_DEPARTURES_BY_LATLON, String(lat), String(lon)]
       response["stops"] || {}
     end
 
     private
 
     def self.fetch_api_path *path
-      fetch [API_BASE, path, API_KEY].join
+      path = [ path ].flatten.map{ |p| CGI.escape p }.join("/")
+      fetch [API_BASE, path , API_KEY].join
     end
 
     def self.fetch url

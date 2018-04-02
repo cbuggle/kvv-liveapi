@@ -7,6 +7,10 @@ class Minitest::Test
     File.read( File.join( File.dirname(__dir__), "expectations", "#{name}.json" ))
   end
 
+  def expected_timetable filename
+    JSON.parse expectation_file( filename )
+  end
+
   # Runs tests in parallel (multithreaded).
   parallelize_me!
 

@@ -1,4 +1,3 @@
-#require 'rails'
 require 'webmock/minitest'
 require "minitest-vcr"
 require 'vcr'

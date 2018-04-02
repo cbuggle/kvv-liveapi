@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://live.kvv.de/webapp/stops/byname/Durlach+Friedhof?key=377d840e54b59adbe53608ba1aad70e8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - live.kvv.de
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Apr 2018 17:07:52 GMT
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Frame-Options:
+      - sameorigin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdG9wcyI6W3siaWQiOiJkZTo4MjEyOjIwMDIiLCJuYW1lIjoiRHVybGFjaCBGcmllZGhvZiIsImxhdCI6NDkuMDAyMDc0MjksImxvbiI6OC40ODI2NTk5N30seyJpZCI6ImRlOjgyMTI6NTAxNiIsIm5hbWUiOiJLYXJsc3J1aGUgQnVsYWNoIEZyaWVkaG9mIiwibGF0Ijo0OC45ODMyMTI1MSwibG9uIjo4LjM3NDQ2MTI1fSx7ImlkIjoiZGU6ODIxNjozMDA5OCIsIm5hbWUiOiJEdXJtZXJzaGVpbSBGcmllZGhvZiIsImxhdCI6NDguOTMxMjE2NTEsImxvbiI6OC4yNzEyNjQ5N30seyJpZCI6IiIsIm5hbWUiOiJPZmZlbmJhY2ggRnJpZWRob2YiLCJsYXQiOjQ5LjE5Mzk2MDQxLCJsb24iOjguMTg5ODY3NDd9LHsiaWQiOiJkZTo4MjE1Ojg1MDgiLCJuYW1lIjoiUmVpY2hlbmJhY2ggRnJpZWRob2YiLCJsYXQiOjQ4LjkyNjEzNzYsImxvbiI6OC40ODMwNDkxNH0seyJpZCI6ImRlOjgyMTU6MzIyNzYiLCJuYW1lIjoiT2Jlcmdyb21iYWNoIEZyaWVkaG9mIiwibGF0Ijo0OS4wNzgyMjExNCwibG9uIjo4LjU4ODMyMDkxfSx7ImlkIjoiZGU6NzMzNDozNDgyMCIsIm5hbWUiOiJIYWdlbmJhY2ggRnJpZWRob2ZzdHJhw59lIiwibGF0Ijo0OS4wMjEyODU3NSwibG9uIjo4LjI0NjY2NjZ9LHsiaWQiOiJkZTo4MjEyOjcxMDkiLCJuYW1lIjoiTmV1cmV1dCBGcmllZGhvZiIsImxhdCI6NDkuMDU3NTE1NzIsImxvbiI6OC4zODQ4NDQ2Mn0seyJpZCI6ImRlOjgyMTI6NDAyIiwibmFtZSI6IkthcmxzcnVoZSBIYXVwdGZyaWVkaG9mIiwibGF0Ijo0OS4wMTM2Mjk1MSwibG9uIjo4LjQyOTM0OTIxfSx7ImlkIjoiZGU6NzMxMzo1NjgzIiwibmFtZSI6IkxhbmRhdSBGcmllZGhvZiIsImxhdCI6NDkuMTkzNzYzMDksImxvbiI6OC4xMDU4NDk1NX0seyJpZCI6ImRlOjgyMTU6MzIyOTQiLCJuYW1lIjoiQnJ1Y2hzYWwgRnJpZWRob2YiLCJsYXQiOjQ5LjExODg1MzAxLCJsb24iOjguNjAwNDA5ODN9LHsiaWQiOiJkZTo4MjE2OjMyMDc0IiwibmFtZSI6IkVsY2hlc2hlaW0gRnJpZWRob2YiLCJsYXQiOjQ4LjkzMDQ1OTE4LCJsb24iOjguMjE2MTEyMjd9LHsiaWQiOiJkZTo4MjEyOjE2IiwibmFtZSI6IkR1cmxhY2ggRnJpZWRyaWNoc2NodWxlIiwibGF0Ijo0OC45OTkyNjE4MywibG9uIjo4LjQ2OTI1NTF9LHsiaWQiOiJkZTo4MjEyOjIzMDUiLCJuYW1lIjoiRHVybGFjaCBUaG9tYXNob2YiLCJsYXQiOjQ4Ljk2NzEyNzYxLCJsb24iOjguNTA0NDA5MzJ9LHsiaWQiOiJkZTo4MjEyOjQzMDQiLCJuYW1lIjoiRHVybGFjaCBCbGF0dHdpZXNlbnN0cmHDn2UiLCJsYXQiOjQ4Ljk5MjkxMjM1LCJsb24iOjguNDY1MTI3NTJ9LHsiaWQiOiJkZTo4MjEyOjQ2MDciLCJuYW1lIjoiRHVybGFjaCBFcmljaC1IZWNrZWwtU3RyLiIsImxhdCI6NDguOTg4MjM0NTYsImxvbiI6OC40NzQ0OTU5N30seyJpZCI6ImRlOjgyMTI6NDAwNiIsIm5hbWUiOiJEdXJsYWNoIFPDpHV0ZXJpY2giLCJsYXQiOjQ4Ljk5MjA0NDMsImxvbiI6OC40NTA3MDcyNH0seyJpZCI6ImRlOjgyMTI6NDMwMiIsIm5hbWUiOiJEdXJsYWNoIFNjaGxlc2llciBTdHIuIChPc3QpIiwibGF0Ijo0OC45ODU3OTg5MiwibG9uIjo4LjQ1OTE5MjA5fSx7ImlkIjoiZGU6ODIxMjo0NDkzIiwibmFtZSI6IkR1cmxhY2ggU2NobGVzaWVyIFN0ci4gKFdlc3QpIiwibGF0Ijo0OC45ODg0MjAxMywibG9uIjo4LjQ1MjUyMzMyfSx7ImlkIjoiZGU6ODIxMjo0NDkyIiwibmFtZSI6IkR1cmxhY2ggWsO8bmRow7x0bGUiLCJsYXQiOjQ4Ljk4Mjk4ODUxLCJsb24iOjguNDYwMDY5NTR9XX0=
+    http_version: 
+  recorded_at: Mon, 02 Apr 2018 17:07:52 GMT
+- request:
+    method: get
+    uri: https://live.kvv.de/webapp/departures/bystop/de:8212:2002?key=377d840e54b59adbe53608ba1aad70e8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - live.kvv.de
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Apr 2018 17:07:52 GMT
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Frame-Options:
+      - sameorigin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0aW1lc3RhbXAiOiIyMDE4LTA0LTAyIDE5OjA3OjUyIiwic3RvcE5hbWUiOiJEdXJsYWNoIEZyaWVkaG9mIiwiZGVwYXJ0dXJlcyI6W3sicm91dGUiOiIyMSIsImRlc3RpbmF0aW9uIjoiR3LDtnR6aW5nZW4gTm9yZCIsImRpcmVjdGlvbiI6IjIiLCJ0aW1lIjoiMTk6MTgiLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMSJ9LHsicm91dGUiOiIyMSIsImRlc3RpbmF0aW9uIjoiRHVybGFjaCBUdXJtYmVyZyIsImRpcmVjdGlvbiI6IjEiLCJ0aW1lIjoiMTk6MzIiLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMiJ9LHsicm91dGUiOiIyMSIsImRlc3RpbmF0aW9uIjoiR3LDtnR6aW5nZW4gTm9yZCIsImRpcmVjdGlvbiI6IjIiLCJ0aW1lIjoiMTk6NDgiLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMSJ9LHsicm91dGUiOiIyMSIsImRlc3RpbmF0aW9uIjoiRHVybGFjaCBUdXJtYmVyZyIsImRpcmVjdGlvbiI6IjEiLCJ0aW1lIjoiMjA6MDIiLCJ2ZWhpY2xlVHlwZSI6bnVsbCwibG93Zmxvb3IiOnRydWUsInJlYWx0aW1lIjp0cnVlLCJ0cmFjdGlvbiI6MCwic3RvcFBvc2l0aW9uIjoiMiJ9XX0=
+    http_version: 
+  recorded_at: Mon, 02 Apr 2018 17:07:52 GMT
+recorded_with: VCR 4.0.0
